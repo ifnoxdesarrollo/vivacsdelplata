@@ -1,0 +1,351 @@
+.input-container {
+  position: relative;
+  margin: 2.5rem auto;
+  width: 100%;
+}
+
+.input-container input[type="text"] {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.label {
+  font-family: 'Roboto-Bold';
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  color: #000000;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.select-label {
+  font-family: 'Roboto-Bold';
+  position: absolute;
+  margin-block: 1rem;
+  top: 1rem;
+  left: 0;
+  color: #000000;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.input-container input[type="text"]:focus + .d-flex .label,
+.input-container input[type="text"]:valid + .d-flex .label {
+  top: -20px;
+  font-size: 16px;
+  color: #333;
+}
+.input-container input[type="text"]:focus ~ .label,
+.input-container input[type="text"]:valid ~ .label {
+  top: -20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.date-margin{
+  margin-top: -2rem;
+}
+
+.underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #000000;
+}
+
+.underline-about {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  top: 2rem;
+  height: 2.5px;
+  width: 100%;
+  background-color: #000000;
+  z-index: 1;
+}
+
+.underline-text {
+  position: absolute;
+  top: 2.5rem;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #000000;
+}
+
+.input-container input[type="text"]:focus ~ .underline,
+.input-container input[type="text"]:valid ~ .underline {
+  transform: scaleX(1);
+}
+
+.contact-container{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-inline: auto;
+  width: 50%;
+}
+@media (max-width:1000px){
+  .contact-container{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-inline: auto;
+    width: 75%;
+  }
+}
+
+.mandatory{
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.1rem;
+  top: 50%;
+  margin-left: auto;
+}
+.mandatory-2{
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.1rem;
+  top: 10%;
+  margin-left: auto;
+}
+
+.select{
+  -webkit-appearance: none; /* Elimina el estilo predeterminado de la flecha en navegadores WebKit (Safari, Chrome) */
+  -moz-appearance: none; /* Elimina el estilo predeterminado de la flecha en navegadores basados en Gecko (Firefox) */
+  appearance: none;
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000000;
+  background-color: transparent;
+  outline: none;
+}
+
+.select option{
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  color: #333;
+  background-color: white;
+}
+
+.check-container{
+  padding-top: 3.5rem;
+}
+
+.check-label{
+ font-family: "Roboto-Regular";
+ font-size: 0.9rem;
+ margin: 0.6rem 0;
+}
+
+.dropdown{
+  position: absolute;
+  font-weight: bold;
+  top: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.dropdown-about{
+  font-family: 'Jost';
+  cursor: pointer;
+  font-weight: bold;
+  top: -0.5rem;
+  font-size: 1.5rem;
+}
+
+.date{
+  z-index: 1;
+}
+
+.date-input{
+  position: relative;
+  text-align: center;
+  top: 3rem;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  width: 2rem !important;
+  border-bottom: none !important;
+  border: none;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.day-input{
+  position: relative;
+  text-align: end;
+  top: 3rem;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  width: 1.6rem !important;
+  border-bottom: none !important;
+  border: none;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.year-input{
+  position: relative;
+  top: 3rem;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  width: 2.6rem !important;
+  border-bottom: none !important;
+  border: none;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.slash{
+  position: relative;
+  top: 3.508rem;
+  font-family: "Roboto-Bold";
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 0;
+  color: #8e8e8e;
+}
+
+.to{
+  position: relative;
+  top: 3.5rem;
+  width: 1.4rem;
+  font-size: 1.1rem;
+  padding-left: 0;
+  color: #8e8e8e;
+}
+
+.message{
+  margin-top: 5rem;
+}
+
+.submit{
+  width: 9rem;
+  height: 2.3rem;
+  min-height: 0px !important;
+  margin-top: 8rem !important;
+  border-radius: 1rem;
+}
+
+.divider-medium{
+  margin-top: 6rem;
+  height: 1px;
+  background-color: #878787;
+}
+
+.contact-footer-title{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.phone-number{
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.checkbox-container {
+  display: inline-block;
+  vertical-align: middle; /* Alineación vertical */
+}
+
+.custom-checkbox {
+  display: none; /* Ocultar el checkbox original */
+}
+
+.checkbox-label {
+  display: inline-block;
+  width: 12px; /* Ancho del símbolo */
+  height: 12px; /* Altura del símbolo */
+  background-color: #ffffff; /* Color de fondo del símbolo */
+  border: 1px solid #000000; /* Borde del símbolo */
+  cursor: pointer;
+  margin-right: 0px; /* Espacio entre el símbolo y el texto */
+}
+
+.label-text {
+  vertical-align: text-top; /* Alinear verticalmente con el símbolo */
+  position: relative;
+  top: -2px;
+  font-family: 'Roboto-Regular';
+  font-size: 0.9rem;
+}
+
+.select-menu{
+}
+
+.select-menu .select-btn{
+  font-family: 'Roboto-Bold';
+  display: flex;
+  padding-bottom: 1%;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.select-btn i{
+  font-size: 16px;
+  transition: 0.3s;
+}
+.select-menu.active .select-btn i{
+  transform: rotate(-180deg);
+}
+.select-menu .options{
+  position: relative;
+  margin-top: 15px;
+  left: -2.7rem;
+  background: #fff;
+  display: none;
+}
+.select-menu.active .options{
+  display: block;
+}
+.options .option{
+  display: flex;
+  height: 35px;
+  cursor: pointer;
+  background: #fff;
+}
+.options .option:hover{
+  color: black;
+  background: #fff;
+}
+.option .option-text:hover{
+  color: black;
+}
+.option i{
+  font-size: 16px;
+  margin-right: 12px;
+}
+.option .option-text{
+  font-family: 'Roboto-Bold';
+  font-size: 16px;
+  color: #bdbdbd;
+}
+
+.roboto{
+  font-family: 'Roboto-Regular';
+  font-size: 1.1rem;
+}
+
+.roboto-regular{
+  font-family: 'Roboto-Regular';
+}
+
+.roboto-bold{
+  font-family: 'Roboto-Bold';
+}
+

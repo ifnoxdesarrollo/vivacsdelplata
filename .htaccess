@@ -1,0 +1,12 @@
+RewriteEngine On 
+RewriteRule ^mountain-resort-farmstay$ index.php
+RewriteRule ^fac$ page2.php
+RewriteRule ^contact-us$ page4.php 
+RewriteRule ^getting-here$ page1.php
+RewriteRule ^gallery$ page5.php
+RewriteRule ^all-inclusive-experience$ page6.php
+RewriteRule ^trip-enhancements$ page7.php
+RewriteRule ^our-story$ page8.php
+RewriteRule ^Error$ 404.php
+
+ErrorDocument 404 http://localhost/Polo_Positivo/Error

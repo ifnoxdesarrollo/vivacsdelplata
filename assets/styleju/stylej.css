@@ -1,0 +1,340 @@
+
+/* --   CSS AÑADIDO    -- */
+.left-margin{
+    margin-left: 5rem;
+  }
+  @media(max-width:768px){
+    .left-margin{
+      margin-left: 4rem;
+    }
+  }
+  @media(max-width:500px){
+    .left-margin{
+      margin-left: 2.5rem;
+    }
+  }
+  
+  .ranch-margin{
+    margin-left: 1rem;
+  }
+  @media(max-width:768px){
+    .ranch-margin{
+      margin-left: 4rem;
+    }
+  }
+  @media(max-width:500px){
+    .ranch-margin{
+      margin-left: 2.5rem;
+    }
+  }
+  
+  .divider {
+    width: 2rem;
+    height: 2px;
+    background-color: #000000; /* Color de la línea */
+  }
+  
+  .divider-light {
+    position: relative;
+    width: 5rem;
+    height: 2px;
+    margin-inline: 0.5rem;
+    background-color: #000000; /* Color de la línea */
+  }
+  
+  .cards-desplegables{
+    margin-top: 5rem;
+  }
+  
+  .card-margin-top{
+    margin-top: 12rem;
+  }
+  @media (max-width: 768px){
+    .card-margin-top{
+      margin-top: -0.2rem;
+    }
+  }
+  
+  .slider{
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+  }
+  
+  .card-image{
+    margin-top: 2rem;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .slider-text{
+    margin-right: 10%;
+  }
+  
+  .itinerary{
+    margin-top: 5rem;
+  }
+  
+  .item-itinerary{
+    width: 17%;
+    padding-right: 2%;
+  }
+  
+  .item-itinerary2{
+    width: 12.2%;
+    padding-right: 2.5%;
+  }
+  
+  .prices-container{
+    margin-bottom: 2rem;
+  }
+  
+  .margin-price{
+    margin-top: 5rem;
+  }
+  
+  .timeline {
+    position: relative;
+    max-width: 65%;
+    margin-top: 1rem;
+    list-style: none;
+  }
+  
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    z-index: 1;
+  }
+  
+  .p1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: 0%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .p2 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: 25%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .p3 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .p4 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: 75%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .p5 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: 100%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .timeline2 {
+    position: relative;
+    max-width: 81.5%;
+    margin-top: 1rem;
+    list-style: none;
+  }
+  
+  .timeline2::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    z-index: 1;
+  }
+  
+  .c1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: 0%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .c2 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: 14.2%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .c3 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: 28.5%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .c4 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: 42.8% ;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .c5 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: 57.1%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  
+  .c6 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: 71.4%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .c7 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: 85.7%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  .c8 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    content: "";
+    position: absolute;
+    top: -0.2rem;
+    left: 100%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #333;
+    transform: translateX(-50%);
+    z-index: 2;
+  }

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Helvetica, sans-serif;
+    src: url(font/HelveticaNeue.ttc);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Vidaloka';
+    src: url(font/Vidaloka-Regular.ttf);
+}

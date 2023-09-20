@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+  }
+  .grid-container{
+    display: grid;
+    max-width: 1096px;
+    grid-template-columns:repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(250px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+  }
+  .tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+  
+}
+
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(46, 132, 206, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+  @media (min-width :768px) and (orientation: landscape){
+    .wide {
+        grid-column: span 2;
+    }
+    .tall{
+        grid-row: span 2;
+    }
+  }
